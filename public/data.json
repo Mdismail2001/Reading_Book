@@ -1,200 +1,85 @@
 [
   {
-    "id": "auth-001",
-    "name": "George Orwell",
-    "birth_year": 1903,
-    "death_year": 1950,
-    "nationality": "British",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/George_Orwell_press_photo.jpg",
-    "books": [
-      {
-        "id": "book-001",
-        "title": "1984",
-        "published_year": 1949,
-        "genre": "Dystopian",
-        "pages": 328,
-        "isbn": "9780451524935",
-        "language": "English",
-        "book_image": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg"
-      }
-    ]
-  },
-  {
-    "id": "auth-002",
-    "name": "J.K. Rowling",
-    "birth_year": 1965,
-    "nationality": "British",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/J._K._Rowling_2010.jpg",
-    "books": [
-      {
-        "id": "book-002",
-        "title": "Harry Potter and the Philosopher's Stone",
-        "published_year": 1997,
-        "genre": "Fantasy",
-        "pages": 223,
-        "isbn": "9780747532699",
-        "language": "English",
-        "book_image": "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg"
-      }
-    ]
-  },
-  {
-    "id": "auth-003",
-    "name": "Ernest Hemingway",
-    "birth_year": 1899,
-    "death_year": 1961,
+    "id": "auth-011",
+    "name": "Edgar Allan Poe",
+    "birth_year": 1809,
+    "death_year": 1849,
     "nationality": "American",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/5/56/ErnestHemingway.jpg",
+    "author_image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Edgar_Allan_Poe_2_retouched_and_cropped.jpg",
     "books": [
       {
-        "id": "book-003",
-        "title": "The Old Man and the Sea",
-        "published_year": 1952,
-        "genre": "Literary Fiction",
-        "pages": 127,
-        "isbn": "9780684801223",
+        "id": "book-011",
+        "title": "The Tell-Tale Heart",
+        "published_year": 1843,
+        "genre": "Horror",
+        "pages": 14,
+        "isbn": "9780141192290",
         "language": "English",
-        "book_image": "https://m.media-amazon.com/images/I/71dbv4LQ1ZL.jpg"
+        "book_image": "https://via.placeholder.com/150?text=The+Tell-Tale+Heart",
+        "reading_time_minutes": 25
       }
     ]
   },
   {
-    "id": "auth-004",
-    "name": "Jane Austen",
-    "birth_year": 1775,
-    "death_year": 1817,
-    "nationality": "British",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/CassandraAusten-JaneAusten(c.1810)_hires.jpg",
+    "id": "auth-012",
+    "name": "Franz Kafka",
+    "birth_year": 1883,
+    "death_year": 1924,
+    "nationality": "Austrian",
+    "author_image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kafka1906_cropped.jpg",
     "books": [
       {
-        "id": "book-004",
-        "title": "Pride and Prejudice",
-        "published_year": 1813,
-        "genre": "Romance",
-        "pages": 432,
-        "isbn": "9780141439518",
-        "language": "English",
-        "book_image": "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg"
+        "id": "book-012",
+        "title": "A Hunger Artist",
+        "published_year": 1922,
+        "genre": "Existential",
+        "pages": 20,
+        "isbn": "9780142437345",
+        "language": "German",
+        "book_image": "https://via.placeholder.com/150?text=A+Hunger+Artist",
+        "reading_time_minutes": 35
       }
     ]
   },
   {
-    "id": "auth-005",
-    "name": "Mark Twain",
-    "birth_year": 1835,
+    "id": "auth-013",
+    "name": "O. Henry",
+    "birth_year": 1862,
     "death_year": 1910,
     "nationality": "American",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mark_Twain_by_AF_Bradley.jpg",
+    "author_image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/William_Sydney_Porter_by_Doubleday_cropped.png",
     "books": [
       {
-        "id": "book-005",
-        "title": "Adventures of Huckleberry Finn",
-        "published_year": 1884,
-        "genre": "Adventure",
-        "pages": 366,
-        "isbn": "9780486280615",
+        "id": "book-013",
+        "title": "The Gift of the Magi",
+        "published_year": 1905,
+        "genre": "Short Story",
+        "pages": 10,
+        "isbn": "9780486270616",
         "language": "English",
-        "book_image": "https://m.media-amazon.com/images/I/91hhCXj9dbL.jpg"
+        "book_image": "https://via.placeholder.com/150?text=The+Gift+of+the+Magi",
+        "reading_time_minutes": 15
       }
     ]
   },
   {
-    "id": "auth-006",
-    "name": "Leo Tolstoy",
-    "birth_year": 1828,
-    "death_year": 1910,
+    "id": "auth-014",
+    "name": "Anton Chekhov",
+    "birth_year": 1860,
+    "death_year": 1904,
     "nationality": "Russian",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Leo_Tolstoy%2C_portrait.jpg",
+    "author_image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Anton_Chekhov_1889.jpg",
     "books": [
       {
-        "id": "book-006",
-        "title": "War and Peace",
-        "published_year": 1869,
-        "genre": "Historical Fiction",
-        "pages": 1225,
-        "isbn": "9780199232765",
+        "id": "book-014",
+        "title": "The Lottery Ticket",
+        "published_year": 1887,
+        "genre": "Drama",
+        "pages": 12,
+        "isbn": "9780140447339",
         "language": "Russian",
-        "book_image": "https://m.media-amazon.com/images/I/81yEWRP5LXL.jpg"
-      }
-    ]
-  },
-  {
-    "id": "auth-007",
-    "name": "F. Scott Fitzgerald",
-    "birth_year": 1896,
-    "death_year": 1940,
-    "nationality": "American",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/F_Scott_Fitzgerald_1921.jpg",
-    "books": [
-      {
-        "id": "book-007",
-        "title": "The Great Gatsby",
-        "published_year": 1925,
-        "genre": "Tragedy",
-        "pages": 218,
-        "isbn": "9780743273565",
-        "language": "English",
-        "book_image": "https://m.media-amazon.com/images/I/81af+MCATTL.jpg"
-      }
-    ]
-  },
-  {
-    "id": "auth-008",
-    "name": "Gabriel García Márquez",
-    "birth_year": 1927,
-    "death_year": 2014,
-    "nationality": "Colombian",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Gabriel_Garcia_Marquez.jpg",
-    "books": [
-      {
-        "id": "book-008",
-        "title": "One Hundred Years of Solitude",
-        "published_year": 1967,
-        "genre": "Magical Realism",
-        "pages": 417,
-        "isbn": "9780060883287",
-        "language": "Spanish",
-        "book_image": "https://m.media-amazon.com/images/I/81YOuOGF8pL.jpg"
-      }
-    ]
-  },
-  {
-    "id": "auth-009",
-    "name": "J.R.R. Tolkien",
-    "birth_year": 1892,
-    "death_year": 1973,
-    "nationality": "British",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Tolkien_1916.jpg",
-    "books": [
-      {
-        "id": "book-009",
-        "title": "The Lord of the Rings",
-        "published_year": 1954,
-        "genre": "Fantasy",
-        "pages": 1216,
-        "isbn": "9780544003415",
-        "language": "English",
-        "book_image": "https://m.media-amazon.com/images/I/91dSMhdIzTL.jpg"
-      }
-    ]
-  },
-  {
-    "id": "auth-010",
-    "name": "Agatha Christie",
-    "birth_year": 1890,
-    "death_year": 1976,
-    "nationality": "British",
-    "author_image": "https://via.placeholder.com/150?text=Agatha+Christie",
-    "books": [
-      {
-        "id": "book-010",
-        "title": "Murder on the Orient Express",
-        "published_year": 1934,
-        "genre": "Mystery",
-        "pages": 256,
-        "isbn": "9780062693662",
-        "language": "English",
-        "book_image": "https://via.placeholder.com/150?text=Murder+on+the+Orient+Express"
+        "book_image": "https://via.placeholder.com/150?text=The+Lottery+Ticket",
+        "reading_time_minutes": 20
       }
     ]
   }
