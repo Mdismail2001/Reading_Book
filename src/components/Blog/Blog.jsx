@@ -1,8 +1,8 @@
 import React from 'react';
 import { IoMdBookmarks } from "react-icons/io";
 
-const Blog = ({blog}) => {
-    console.log(blog)
+const Blog = ({blog, btnHandle}) => {
+    // console.log(blog)
     return (
         <div className=' mt-5 '> 
             <div className="card-body bg-gray-950 ">
@@ -20,12 +20,12 @@ const Blog = ({blog}) => {
                 </div>
                 <h4 className='text-2xl'>Book Name: {blog.books[0].title}</h4>
                 <div className="card-actions  justify-between">
-                    <IoMdBookmarks size={50} />   
+                    <button onClick={ () => btnHandle(blog)}><IoMdBookmarks size={50} /></button>  
                     <button className="btn btn-primary rounded-3xl">Mark as read</button>
                 </div>
             </div>
                     
-            
+        
         </div>
     );
 };
