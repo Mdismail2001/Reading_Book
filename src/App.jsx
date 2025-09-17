@@ -9,7 +9,16 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-    <Blogs></Blogs>
+
+    <div className="blogs_container flex mt-5 gap-5">
+      <div className='w-[70%] '>
+        <Blogs></Blogs>
+      </div>
+      <div className='w-[30%]'>
+        <h1>Reading Time: {0}</h1>
+        <h1>Book Marked Count: {0}</h1>
+      </div>
+    </div>
     </>
   )
 }
