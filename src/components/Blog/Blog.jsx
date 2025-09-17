@@ -1,7 +1,8 @@
 import React from 'react';
+import { IoMdBookmarks } from "react-icons/io";
 
 const Blog = ({blog}) => {
-    console.log(blog.books[0])
+    console.log(blog)
     return (
         <div className=' mt-5 '> 
             <div className="card-body bg-gray-950 ">
@@ -12,10 +13,15 @@ const Blog = ({blog}) => {
                     alt="Image Not Found" />
                 </figure>
 
-                <h2 className="card-title">Card Title</h2>
-                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+                <div className="flex gap-3 items-center">
+                    <img className='w-10 h-10 rounded-full' src={blog.author_image} alt="Not found" />
+                    <p>Name: {blog.name}</p>
+                    <span>Death: {blog.death_year}</span>
+                </div>
+                <h4 className='text-2xl'>Book Name: {blog.books[0].title}</h4>
+                <div className="card-actions  justify-between">
+                    <IoMdBookmarks size={50} />   
+                    <button className="btn btn-primary rounded-3xl">Mark as read</button>
                 </div>
             </div>
                     

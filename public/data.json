@@ -184,7 +184,7 @@
     "birth_year": 1890,
     "death_year": 1976,
     "nationality": "British",
-    "author_image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Agatha_Christie.png",
+    "author_image": "https://via.placeholder.com/150?text=Agatha+Christie",
     "books": [
       {
         "id": "book-010",
@@ -194,7 +194,7 @@
         "pages": 256,
         "isbn": "9780062693662",
         "language": "English",
-        "book_image": "https://m.media-amazon.com/images/I/81OthjkJYuL.jpg"
+        "book_image": "https://via.placeholder.com/150?text=Murder+on+the+Orient+Express"
       }
     ]
   }

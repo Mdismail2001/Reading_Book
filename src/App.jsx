@@ -14,7 +14,7 @@ function App() {
       <div className='w-[70%] '>
         <Blogs></Blogs>
       </div>
-      <div className='w-[30%]'>
+      <div className='w-[30%] text-center mt-2 text-2xl font-bold'>
         <h1>Reading Time: {0}</h1>
         <h1>Book Marked Count: {0}</h1>
       </div>
