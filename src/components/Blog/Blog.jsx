@@ -21,7 +21,7 @@ const Blog = ({blog, btnHandle, readBtn}) => {
                 <h4 className='text-2xl'>Book Name: {blog.books[0].title}</h4>
                 <div className="card-actions  justify-between">
                     <button onClick={ () => btnHandle(blog)}><IoMdBookmarks size={50} /></button>  
-                    <button onClick={()=>readBtn(blog.books[0].reading_time_minutes)} className="btn btn-primary rounded-3xl">Mark as read</button>
+                    <button onClick={()=>readBtn(blog.books[0].reading_time_minutes, blog.id)} className="btn btn-primary rounded-3xl">Mark as read</button>
                 </div>
             </div>
                     

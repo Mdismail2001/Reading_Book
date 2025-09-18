@@ -16,11 +16,22 @@ const btnHandle =(blog)=>{
 
 // function for reading time
 
-const readBtn =(time)=>{
-  // console.log(minute)
+const readBtn =(time,id)=>{
+  // console.log(time, id)
   setReadTime(readTime + time);
+  // call remove function and pass the 
+  handleRemove(id)
 }
-console.log(readTime)
+// console.log(readTime)
+
+
+// function for remove book form bookmark
+const handleRemove =(id)=>{
+  console.log(id)
+  const remainingBookMark = bookmark.filter(newBook => newBook.id !== id)
+  setBookmark(remainingBookMark)
+
+}
 
 
 
@@ -36,9 +47,9 @@ console.log(readTime)
 {/* counter section */}
       <div className='w-[30%] text-center mt-2 text-2xl font-bold'>
         <h1>Reading Time: {readTime}</h1>
-        <h1>Book Marked Count:{bookmark.length}</h1>
+        <h1 className='border-gray-950 gap-5'>Book Marked Count:{bookmark.length}</h1>
          {
-          bookmark.map(book => <p>Book Name: {book.books[0].title}</p> )
+          bookmark.map(book => <p>Book Name: {book.books[0].title} </p> )
           }
       </div>
     </div>
